@@ -7,6 +7,8 @@ public static void main(String args[]){
 		  System.out.println(" var1 is equal to 100");
 	}else {		  System.out.println(" var1 is NOT equal to 100"); }
 
+   System.out.println(" End of the main);
+
 }
 
 }
