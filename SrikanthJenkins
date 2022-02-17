@@ -20,7 +20,7 @@ pipeline {
             steps {
                 echo 'Deploying....'
                sh 'aws s3 ls'
-               aws s3 ls  
+               sh 'aws s3 ls'  
             }
         }
     }
