@@ -5,17 +5,17 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
+                java -version
+                javac Hello.java
             }
         }
-        stage('Test') {
+        stage('Run') {
             steps {
-                echo 'Testing..'
+                echo 'Run the java code..'
+                java Hello
+                
             }
         }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying....'
-            }
-        }
+        
     }
 }
