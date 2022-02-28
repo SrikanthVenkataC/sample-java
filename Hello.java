@@ -5,8 +5,8 @@ public static void main(String args[]){
   System.out.println(" Added new output stmt ... modify this");
   if (var1 ==10){
 		  System.out.println(" var1 is equal to 100");
-	}else {		   }
 
+	}else {		   }
 
    System.out.println(" End of the main ");
 
