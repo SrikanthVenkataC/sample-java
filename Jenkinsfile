@@ -6,7 +6,9 @@ pipeline {
             steps {
                 echo 'Building..'
                 sh 'docker --version'
-                sh 'docker images'
+                sh """ 
+                docker images
+                """
             }
         }
         stage('Run') {
